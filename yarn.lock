@@ -6504,14 +6504,10 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
-  version "4.17.11"
-  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-
-lodash@^4.17.13, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -10563,6 +10559,16 @@ vuex@^3.1.2:
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.4.0.tgz#20cc086062d750769fce1febb34e7fceeaebde45"
   integrity sha512-ajtqwEW/QhnrBZQsZxCLHThZZaa+Db45c92Asf46ZDXu6uHXgbfVuBaJ4gzD2r4UX0oMJHstFwd2r2HM4l8umg==
 
+vxe-table-plugin-antd@^1.8.9:
+  version "1.8.10"
+  resolved "https://registry.yarnpkg.com/vxe-table-plugin-antd/-/vxe-table-plugin-antd-1.8.10.tgz#a6c02bfc7cf22546311131b8b854c0aadab020ea"
+  integrity sha512-XsNToY1zSmuLo/oQfSeDjnD4I03U+YYiMcBiduW8/BhZ7/eSTF4L2Rmu7cSDbLJefPwxsQKRd+jlFeF7T433Mw==
+
+vxe-table@^2.9.6:
+  version "2.9.15"
+  resolved "https://registry.yarnpkg.com/vxe-table/-/vxe-table-2.9.15.tgz#8533cf57be343b2172b9dcb24eb29ddb81695215"
+  integrity sha512-le+zGlB68fhxmfPfKuQ1XJdJsxp679U/6xOoLafO9poyU94X7WoUf+uYZzHbmRtlJyYZ3KcKnMRypMsEeULmaw==
+
 warning@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
@@ -10923,6 +10929,11 @@ ws@^6.0.0:
   resolved "https://registry.npmjs.org/ws/-/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
   dependencies:
     async-limiter "~1.0.0"
+
+xe-utils@^2.4.5:
+  version "2.6.5"
+  resolved "https://registry.yarnpkg.com/xe-utils/-/xe-utils-2.6.5.tgz#05175b734cde34bc1bca58206dd0faad38140893"
+  integrity sha512-7xWIo0HEMVq/3ZIkMpCrCFCqGb0xvDH/Q4qituvu/MaOSFeTj22wOeoxdVtlz0f/qUAbRBDRE9/0i6C1tDc+Rw==
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"
