@@ -26,7 +26,7 @@
     "md5": "^2.2.1",
     "mqtt": "^3.0.0",
     "nprogress": "^0.2.0",
-    "tinymce": "^5.1.5",
+    "tinymce": "^5.4.0",
     "viser-vue": "^2.4.8",
     "vue": "^2.6.11",
     "vue-apexcharts": "^1.5.1",
