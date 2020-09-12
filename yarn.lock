@@ -4604,9 +4604,10 @@ event-pubsub@4.3.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/event-pubsub/-/event-pubsub-4.3.0.tgz#f68d816bc29f1ec02c539dc58c8dd40ce72cb36e"
 
-eventemitter3@^3.0.0:
-  version "3.1.2"
-  resolved "https://registry.npmjs.org/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
+eventemitter3@^4.0.0:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.0.0"
@@ -5008,10 +5009,9 @@ follow-redirects@1.5.10:
     debug "=3.1.0"
 
 follow-redirects@^1.0.0:
-  version "1.7.0"
-  resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.7.0.tgz#489ebc198dc0e7f64167bd23b03c4c19b5784c76"
-  dependencies:
-    debug "^3.2.6"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-each@~0.3.3:
   version "0.3.3"
@@ -5526,10 +5526,11 @@ http-proxy-middleware@^0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.17.0"
-  resolved "https://registry.npmjs.org/http-proxy/-/http-proxy-1.17.0.tgz#7ad38494658f84605e2f6db4436df410f4e5be9a"
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
-    eventemitter3 "^3.0.0"
+    eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
     requires-port "^1.0.0"
 
@@ -8772,7 +8773,8 @@ require-uncached@^1.0.3:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 reselect@^3.0.1:
   version "3.0.1"
@@ -10563,6 +10565,16 @@ vuex@^3.1.2:
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.4.0.tgz#20cc086062d750769fce1febb34e7fceeaebde45"
   integrity sha512-ajtqwEW/QhnrBZQsZxCLHThZZaa+Db45c92Asf46ZDXu6uHXgbfVuBaJ4gzD2r4UX0oMJHstFwd2r2HM4l8umg==
 
+vxe-table-plugin-antd@^1.8.9:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/vxe-table-plugin-antd/-/vxe-table-plugin-antd-1.9.1.tgz#ba651c4482ee5248db373101b7040d9d6f14af07"
+  integrity sha512-9BY1nUPS0BITEs22WMTXD1PbCF8KpZf32+HcN5HqiR9/DpPzdg+0vM3/ohePORSbi/A1lb8YuqF5JI8TEXKU9Q==
+
+vxe-table@^2.9.6:
+  version "2.9.19"
+  resolved "https://registry.yarnpkg.com/vxe-table/-/vxe-table-2.9.19.tgz#9ff2c5e871b972103875990442c903dda13bedac"
+  integrity sha512-UuOw1Yb0AD2uJQ6lbYlb1irhnSnu9/cv23Km0rOyS8GO47jYtEgNWfWoQgWRHnAgvrvJkr3MkFcdDuhmeHuY5w==
+
 warning@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
@@ -10923,6 +10935,11 @@ ws@^6.0.0:
   resolved "https://registry.npmjs.org/ws/-/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
   dependencies:
     async-limiter "~1.0.0"
+
+xe-utils@^2.4.5:
+  version "2.7.10"
+  resolved "https://registry.yarnpkg.com/xe-utils/-/xe-utils-2.7.10.tgz#b21c9ec358fec92bc44a51f41117dc2ac3f80e92"
+  integrity sha512-JcCclDxMb4rx+iBupBZG22JCGvzmgw+YYliIzL/bR6CPQP/V+UqAyKKEc2SYQrwFkl3XpeYNlHkz+jMmM3kQxA==
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"
