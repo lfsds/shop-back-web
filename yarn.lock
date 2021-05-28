@@ -4015,8 +4015,9 @@ dns-equal@^1.0.0:
   resolved "https://registry.npmjs.org/dns-equal/-/dns-equal-1.0.0.tgz#b39e7f1da6eb0a75ba9c17324b34753c47e0654d"
 
 dns-packet@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/dns-packet/-/dns-packet-1.3.1.tgz#12aa426981075be500b910eedcd0b47dd7deda5a"
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.4.tgz#e3455065824a2507ba886c55a89963bb107dec6f"
+  integrity sha512-BQ6F4vycLXBvdrJZ6S3gZewt6rcrks9KBgM9vrhW+knGRqc8uEdT7fuCwloc7nny5xNoMJ17HGH0R/6fpo8ECA==
   dependencies:
     ip "^1.1.0"
     safe-buffer "^5.0.1"
@@ -8936,9 +8937,14 @@ rxjs@^6.4.0:
   dependencies:
     tslib "^1.9.0"
 
-safe-buffer@5.1.2, safe-buffer@>=5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
+
+safe-buffer@>=5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
 safe-regex@^1.1.0:
   version "1.1.0"
@@ -10563,6 +10569,16 @@ vuex@^3.1.2:
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.4.0.tgz#20cc086062d750769fce1febb34e7fceeaebde45"
   integrity sha512-ajtqwEW/QhnrBZQsZxCLHThZZaa+Db45c92Asf46ZDXu6uHXgbfVuBaJ4gzD2r4UX0oMJHstFwd2r2HM4l8umg==
 
+vxe-table-plugin-antd@^1.8.9:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/vxe-table-plugin-antd/-/vxe-table-plugin-antd-1.11.2.tgz#9e517272a816953d68e58e500a0da9098f12585e"
+  integrity sha512-mqs+JitYQNmi+bfR4nsAwLvlZhID0ytcFVCHCMDMgeAGqFy9e+a5Fmym6sDsgtQ8p5xdFaSdBVAR/UzUd4AoLA==
+
+vxe-table@^2.9.6:
+  version "2.10.22"
+  resolved "https://registry.yarnpkg.com/vxe-table/-/vxe-table-2.10.22.tgz#5a3cddd0914de2ccc012a4c95e31f7e012bb949d"
+  integrity sha512-NkX35phEuGXMC2QYl8plyZvRcufUhnW3Qw5k0EwFjf03NNRgC/O1ipnqgheLbfHZrkJJWR81dh4d4CZs8AXqrQ==
+
 warning@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
@@ -10923,6 +10939,11 @@ ws@^6.0.0:
   resolved "https://registry.npmjs.org/ws/-/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
   dependencies:
     async-limiter "~1.0.0"
+
+xe-utils@^2.4.5:
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/xe-utils/-/xe-utils-2.8.3.tgz#b5cc9e871d1115a7ac3f2a9292c1dea5efe0f2d0"
+  integrity sha512-qjiq6juv+ZPDJC3oXr9E4wjaN73G/yeqUfozpmZOmBBTw2oH5A60Jz3AvCVLKFoTQl7qfsjefR9i2gyyMz7TQw==
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"
